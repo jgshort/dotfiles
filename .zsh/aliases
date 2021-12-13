@@ -3,4 +3,6 @@
 alias g="git"
 alias yeet="git push"
 
-alias config='git --git-dir=/Users/adalo/.cfg/ --work-tree=/Users/adalo'
+alias config="git --git-dir=/Users/adalo/.cfg/ --work-tree=/Users/adalo"
+
+alias brew="arch -arm64 brew"
