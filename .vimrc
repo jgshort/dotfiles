@@ -97,8 +97,6 @@ endfunction
 command! -bar LF call LF()
 
 autocmd BufWritePre * %s/\s\+$//e
-autocmd BufWritePre * %s/\n\+\%$//e
-autocmd BufWritePre *.[ch] %s/\%$/\r/e
 
 let g:ackprg = 'rg --vimgrep --smart-case --hidden --follow --no-ignore-vcs -g "!{node_modules,.git}"'
 let g:ack_autoclose = 1
