@@ -1,5 +1,25 @@
 execute pathogen#infect()
 
+" Installed bundles:
+" dracula    https://github.com/dracula/vim.git
+" repeat     https://github.com/tpope/vim-repeat.git
+" fugitive   https://github.com/tpope/vim-fugitive.git
+" surround   https://github.com/tpope/vim-surround.git
+" pathogen   https://github.com/tpope/vim-pathogen.git
+" sensible   https://github.com/tpope/vim-sensible.git
+" commentary https://github.com/tpope/vim-commentary.git
+" fzf        https://github.com/junegunn/fzf.git
+" fzf.vim    https://github.com/junegunn/fzf.vim.git
+" airline    https://github.com/vim-airline/vim-airline.git
+" floaterm   https://github.com/voldikss/vim-floaterm.git
+" polyglot   https://github.com/sheerun/vim-polyglot.git
+" nerdtree   https://github.com/preservim/nerdtree.git
+" ale        https://github.com/dense-analysis/ale.git
+" ack        https://github.com/mileszs/ack.vim.git
+" coc        https://github.com/neoclide/coc.nvim.git
+" lf         https://github.com/ptzz/lf.vim.git
+" unimpaired https://github.com/tpope/vim-unimpaired.git
+
 set nocompatible
 
 set rtp+=/opt/homebrew/bin/fzf
