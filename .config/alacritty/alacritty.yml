@@ -6,7 +6,7 @@ import:
 window:
   decorations: none
   dimensions:
-    columns: 209
+    columns: 172
     lines: 33
   padding:
     x: 10
