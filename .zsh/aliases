@@ -6,3 +6,5 @@ alias yeet="git push"
 alias config="git --git-dir=/Users/adalo/.cfg/ --work-tree=/Users/adalo"
 
 alias brew="arch -arm64 brew"
+alias vim="nvim"
+

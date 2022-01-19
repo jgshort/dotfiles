@@ -21,7 +21,7 @@ execute pathogen#infect()
 " unimpaired https://github.com/tpope/vim-unimpaired.git
 
 set nocompatible
-
+set re=2
 set rtp+=/opt/homebrew/bin/fzf
 
 set fileencoding=utf8
