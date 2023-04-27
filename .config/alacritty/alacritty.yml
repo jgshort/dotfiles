@@ -6,11 +6,15 @@ import:
 window:
   decorations: none
   dimensions:
-    columns: 172
-    lines: 33
+    columns: 206
+    lines: 31
   padding:
     x: 10
     y: 10
+  position:
+    x: 20
+    y: 450
+  opacity: 0.95
 
 scrolling:
   history: 100000
@@ -68,3 +72,4 @@ shell:
     - --login
 
 working_directory: None
+

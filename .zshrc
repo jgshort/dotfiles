@@ -1,4 +1,4 @@
-export ZSH="/Users/adalo/.oh-my-zsh"
+export ZSH="/Users/ctor/.oh-my-zsh"
 source ~/antigen.zsh
 
 antigen use oh-my-zsh
@@ -195,3 +195,13 @@ ex=:\
 "
 
 antigen apply
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+# export PATH="$HOME/bin/cweb:$PATH"
+export PATH="$HOME/bin/alr/bin:$PATH"
+export PATH="$PATH:$HOME/bin/flutter/bin"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="${HOME}/.pyenv/shims:${PATH}"
+export PATH="${PATH}:$HOME/Library/Android/sdk/emulator"
+export PATH="${PATH}:$HOME/Library/Android/sdk/platform-tools"

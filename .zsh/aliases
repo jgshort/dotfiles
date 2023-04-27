@@ -3,8 +3,12 @@
 alias g="git"
 alias yeet="git push"
 
-alias config="git --git-dir=/Users/adalo/.cfg/ --work-tree=/Users/adalo"
+alias config="git --git-dir=/Users/ctor/.cfg/ --work-tree=/Users/ctor"
 
 alias brew="arch -arm64 brew"
 alias vim="nvim"
 
+alias yart="yarn"
+alias yart="yarn"
+
+alias alacritty="/Applications/Alacritty.app/Contents/MacOS/alacritty"
